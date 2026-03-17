@@ -1,26 +1,26 @@
 class OpForward < Formula
   desc "Forward 1Password CLI across SSH boundaries with biometric auth"
   homepage "https://github.com/ekovshilovsky/op-forward"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ekovshilovsky/op-forward/releases/download/v0.3.0/op-forward_0.3.0_darwin_arm64.tar.gz"
-      sha256 "8bee8a5b94ff16115f6b085890b3364ada5d7a0745810f22d9747587073b47eb"
+      url "https://github.com/ekovshilovsky/op-forward/releases/download/v0.4.0/op-forward_0.4.0_darwin_arm64.tar.gz"
+      sha256 "473296bb38114b5a5a522463ab325e7c7667f1feaaf3bfe1516be2ab374a451b"
     else
-      url "https://github.com/ekovshilovsky/op-forward/releases/download/v0.3.0/op-forward_0.3.0_darwin_amd64.tar.gz"
-      sha256 "23df3ed3b8555951ba7152290207d60a54aa9b646769da2c654fabf0523f916b"
+      url "https://github.com/ekovshilovsky/op-forward/releases/download/v0.4.0/op-forward_0.4.0_darwin_amd64.tar.gz"
+      sha256 "05ec587652f1e20f7f0cb90f353b7d1f629f1c4c5dee4c80d8826af43a6fda94"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ekovshilovsky/op-forward/releases/download/v0.3.0/op-forward_0.3.0_linux_arm64.tar.gz"
-      sha256 "60238db904c65596bb51fc41650c6ce428d42c2bf7f1cbdf7ff6eab3d66c9382"
+      url "https://github.com/ekovshilovsky/op-forward/releases/download/v0.4.0/op-forward_0.4.0_linux_arm64.tar.gz"
+      sha256 "a2966883c14865690f695c53c888ab4adc4216bd45e38c205ceafff7c58b0019"
     else
-      url "https://github.com/ekovshilovsky/op-forward/releases/download/v0.3.0/op-forward_0.3.0_linux_amd64.tar.gz"
-      sha256 "ee07ccd3223b03750527f900bf05d770f7722c2f8937cd3be2881c146e3093e4"
+      url "https://github.com/ekovshilovsky/op-forward/releases/download/v0.4.0/op-forward_0.4.0_linux_amd64.tar.gz"
+      sha256 "487fb3c907159c0da292aaaec1da06a252e399c41b9e8014d14d8655882c48d4"
     end
   end
 
