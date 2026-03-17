@@ -1,5 +1,5 @@
 class Cloister < Formula
-  desc "Isolated environments for multiple Claude Code accounts"
+  desc "Isolated VM environments for AI coding agents and multi-account separation"
   homepage "https://github.com/ekovshilovsky/cloister"
   version "0.0.1"
   license "MIT"
