@@ -7,10 +7,10 @@ class Cloister < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ekovshilovsky/cloister/releases/download/v0.4.0/cloister_0.4.0_darwin_arm64.tar.gz"
-      sha256 "a2cadad0549a5d40f20194aaa583c172f6eda3b4699e9ca9905166d5b1611477"
+      sha256 "a17e9ddb78025ad9830f8f29b7f1b8487bd7d248f69edd4a0e82cc4b0a782cd7"
     else
       url "https://github.com/ekovshilovsky/cloister/releases/download/v0.4.0/cloister_0.4.0_darwin_amd64.tar.gz"
-      sha256 "c26c5c8bd000ddd427986766ad379dc7dfd2fe2b9f7b2daa7c891e53711f93cc"
+      sha256 "016a15920c11a9ee3808391598bc3f38404058e37d5dabe83e2f84c718defa87"
     end
   end
 
