@@ -1,16 +1,16 @@
 class Cloister < Formula
   desc "Isolated VM environments for AI coding agents and multi-account separation"
   homepage "https://github.com/ekovshilovsky/cloister"
-  version "0.13.2"
+  version "0.13.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ekovshilovsky/cloister/releases/download/v0.13.2/cloister_0.13.2_darwin_arm64.tar.gz"
-      sha256 "b9e2efd1fb9277f7a690c01d333069f794622a22728e785a55150ed5007aaac4"
+      url "https://github.com/ekovshilovsky/cloister/releases/download/v0.13.3/cloister_0.13.3_darwin_arm64.tar.gz"
+      sha256 "f976c053b7aa9f5152b5c1c36a810c104cb964d96c56f38eb80720be76fcc764"
     else
-      url "https://github.com/ekovshilovsky/cloister/releases/download/v0.13.2/cloister_0.13.2_darwin_amd64.tar.gz"
-      sha256 "9ed0382415f018b4ccb4360f7c971189ebc76c31cfc1649a09648e4dc143b267"
+      url "https://github.com/ekovshilovsky/cloister/releases/download/v0.13.3/cloister_0.13.3_darwin_amd64.tar.gz"
+      sha256 "3f81c4117df0750a05a9d80e8c3551b3f454101000413ca8807b7d194591f5fb"
     end
   end
 
